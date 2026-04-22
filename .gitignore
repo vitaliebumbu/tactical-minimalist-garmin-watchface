@@ -1,0 +1,8 @@
+bin/
+.DS_Store
+*.prg
+*.prg.debug.xml
+gen/
+internal-mir/
+external-mir/
+fenix 8 watch face.zip

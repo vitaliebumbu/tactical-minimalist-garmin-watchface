@@ -1,0 +1,27 @@
+<!-- CasioMax — retro Casio mashup watch face for Fenix 8 AMOLED -->
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application
+        id="ca510face00000000000000000000001"
+        type="watchface"
+        name="@Strings.AppName"
+        entry="CasioMaxApp"
+        launcherIcon="@Drawables.LauncherIcon"
+        minApiLevel="6.0.0">
+
+        <iq:products>
+            <iq:product id="fenix847mm"/>
+        </iq:products>
+
+        <iq:permissions>
+            <iq:uses-permission id="SensorHistory"/>
+        </iq:permissions>
+
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+
+        <iq:barrels>
+        </iq:barrels>
+
+    </iq:application>
+</iq:manifest>
